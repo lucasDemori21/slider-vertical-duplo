@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    height: 100%;
+    /* overflow: hidden; */
+>>>>>>> 627807a11f43ac2883f776236965b20eec8a8b0f
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.container-images{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slider-left{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-left div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.slider-left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.slider-right {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-right div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+<<<<<<< HEAD
+
+.container-images .botoes button{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+}
+
+button{
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button:hover{
+    color: #222;
+}
+
+button:focus{
+        outline: none;
+}
+
+.container-images .botoes .button-down{
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container-images .botoes .button-up{
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+=======
+.texto3{
+    background-color: rgb(78, 138, 216);
+}
+.texto4{
+    background-color: rgb(219, 27, 91);
+>>>>>>> 627807a11f43ac2883f776236965b20eec8a8b0f
+}
+
+.botao{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -30px;
+    border-radius: 5px;
+} 
+.botao-up{
+    top: 310px;
+    left: 404px;
+    border: none;
+    border-radius: 5px;
+}
+.botao-down{
+    top: 358px;
+    left: 374px;
+    border: none;
+    border-radius: 5px;
+}
+
+
